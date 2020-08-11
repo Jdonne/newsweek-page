@@ -1,0 +1,15 @@
+.underline-red {
+  text-decoration-color: red !important;
+}
+.article-des {
+  font-size: 15px;
+  line-height: 19px !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.genre {
+  color: #f72210;
+  bottom: 0;
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
