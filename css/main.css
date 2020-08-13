@@ -25,3 +25,15 @@
     min-width: 1310px !important;
   }
 }
+
+.scroll-height {
+  height: 100vh;
+  overflow: auto;
+}
+.scroll-height::-webkit-scrollbar {
+  display: none;
+}
+
+.img-fit {
+  object-fit: contain;
+}
