@@ -1,12 +1,16 @@
+/* link red underline */
 .underline-red {
   text-decoration-color: red !important;
 }
+
+/* article description */
 .article-des {
   font-size: 15px;
   line-height: 19px !important;
   font-family: Arial, Helvetica, sans-serif !important;
 }
 
+/* topic tag */
 .genre {
   color: #f72210;
   bottom: 0;
@@ -14,6 +18,7 @@
   background-color: rgba(255, 255, 255, 0.9);
 }
 
+/* grey article titles */
 .grey-text {
   font-size: 14px;
   line-height: 16px;
@@ -21,11 +26,13 @@
 }
 
 @media (min-width: 1200px) {
+  /* wider body */
   .main-con {
     min-width: 1310px !important;
   }
 }
 
+/* independent scroll for more stories section */
 .scroll-height {
   height: 100vh;
   overflow: auto;
@@ -36,4 +43,30 @@
 
 .img-fit {
   object-fit: contain;
+}
+
+/* dimensions of col 3 images */
+.col3-img {
+  width: 63px;
+  height: 63px;
+}
+
+.versus::before,
+.versus::after {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.versus::before {
+  top: calc(50% - 2px);
+}
+.versus::after {
+  top: 50%;
+}
+.vs-text {
+  z-index: 1;
 }
