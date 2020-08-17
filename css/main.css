@@ -50,7 +50,7 @@
   width: 63px;
   height: 63px;
 }
-
+/* debate section decoration */
 .versus::before,
 .versus::after {
   content: "";
@@ -69,4 +69,34 @@
 }
 .vs-text {
   z-index: 1;
+}
+
+/* sticky poisition for col 3 */
+
+.sticky {
+  position: sticky;
+  top: -370px;
+}
+
+/* font important */
+.font-important {
+  font: 19px/19px "Roboto Condensed", sans-serif;
+}
+/* logo svg */
+.n-svg {
+  width: 40px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+    no-repeat #f72210;
+}
+
+/* email border */
+.email-border {
+  border: 0.5px solid lightgray !important;
+}
+/* sign-up font */
+.sign-up {
+  font-size: 17px;
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #f61602;
 }
