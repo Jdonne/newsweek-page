@@ -1,3 +1,38 @@
+/* background color red */
+.bg-color {
+  background-color: #f72210;
+}
+svg {
+  width: 396px;
+  height: 60px;
+  color: white;
+}
+.weather-icon {
+  width: 24px;
+  height: 24px;
+}
+/* font for nav */
+.nav-font {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.btn-radius {
+  border-radius: 100px;
+}
+ul {
+  list-style: none;
+}
+ul li a {
+  color: black;
+}
+li a:hover {
+  color: #f72210 !important;
+  text-decoration: none !important;
+}
+.search {
+  width: 80px;
+}
+
 /* link red underline */
 .underline-red {
   text-decoration-color: red !important;
