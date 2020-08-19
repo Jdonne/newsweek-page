@@ -38,6 +38,10 @@ li a:hover {
   text-decoration-color: red !important;
 }
 
+.contain {
+  object-fit: cover;
+}
+
 /* article description */
 .article-des {
   font-size: 15px;
