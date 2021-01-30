@@ -67,7 +67,7 @@ li a:hover {
 @media (min-width: 1200px) {
   /* wider body */
   .main-con {
-    min-width: 1310px !important;
+    min-width: 90% !important;
   }
 }
 
